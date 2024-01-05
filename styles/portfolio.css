@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,300;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* comon style */
+.orange-color {
+    color: #FD6E0A
+}
+
+.btn-style {
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+
+}
+
+nav h3 {
+    font-size: 46px;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: gray
+}
+
+/* Bannar styling */
+.bannar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px 30px 200px;
+}
+
+.bannar-content {
+    padding: 10px;
+}
