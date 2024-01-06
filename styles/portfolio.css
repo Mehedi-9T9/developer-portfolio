@@ -73,11 +73,14 @@ ul li a {
 .about-container {
     padding: 150px;
     background-color: #fff8f3;
+    width: 1000px;
+    margin: 50px auto;
 }
 
 .about-title {
     text-align: center;
     font-size: 46px;
+    color: gray;
 }
 
 .about-text {
@@ -95,4 +98,35 @@ ul li a {
 
 .details-header {
     color: gray;
+    text-align: center;
+    padding: 20px;
+}
+
+.skill-container {
+    padding: 150px;
+}
+
+.skill-info {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.skill-same {
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+}
+
+.skill-same h2 {
+    padding: 10px;
+
+}
+
+.skill-same p {
+    padding: 10px;
+    text-align: center;
 }
