@@ -50,13 +50,49 @@ ul li a {
 }
 
 /* Bannar styling */
+.header {
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+
 .bannar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 50px 30px 200px;
+    padding: 30px 50px 0px 150px;
 }
 
 .bannar-content {
+    max-width: 500px;
+
+}
+
+/* main section styling */
+.about-container {
+    padding: 150px;
+    background-color: #fff8f3;
+}
+
+.about-title {
+    text-align: center;
+    font-size: 46px;
+}
+
+.about-text {
+    font-size: 18px;
     padding: 10px;
+    /* text-align: justify; */
+}
+
+.about-detaits {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px
+}
+
+.details-header {
+    color: gray;
 }
