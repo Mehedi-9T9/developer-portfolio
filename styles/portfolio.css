@@ -108,7 +108,7 @@ ul li a {
 
 .skill-info {
     display: flex;
-    text-align: center;
+    text-align: start;
     justify-content: space-between;
 
 }
@@ -121,6 +121,10 @@ ul li a {
     margin: 10px;
 }
 
+.skill-same img {
+    padding: 10px;
+}
+
 .skill-same h2 {
     padding: 10px;
 
@@ -128,5 +132,37 @@ ul li a {
 
 .skill-same p {
     padding: 10px;
-    text-align: center;
+    text-align: start;
+}
+
+/* Resume styling */
+.resume-container {
+    background-color: #fff;
+}
+
+.qualification {
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+}
+
+.qualification h2 {
+    padding: 10px 10px 5px 10px;
+}
+
+.qualification h3 {
+    color: gray;
+    text-align: start;
+    padding: 10px 10px 5px 10px;
+
+}
+
+.qualification p {
+    padding: 10px 10px 5px 10px;
+    font-size: 18px;
+}
+
+.education-same {
+    margin: 20px;
+    padding: 10px;
 }
